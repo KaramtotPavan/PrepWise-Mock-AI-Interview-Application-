@@ -22,8 +22,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Priyanshu0707/jsm_mock_interview_platform
-   cd jsm_mock_interview_platform
+   git clone https://github.com/KaramtotPavan/PrepWise-Mock-AI-Interview-Application-.git
+   cd PrepWise-Mock-AI-Interview-Application-
    ```
 2. Install dependencies:
    ```sh
@@ -64,5 +64,4 @@ This project is licensed under the MIT License.
 For any queries or suggestions, reach out via GitHub Issues.
 
 ---
-**Live Demo**: [PrepWise on Vercel](https://jsm-mock-interview-pla-git-32a91e-priyanshu-s-projects-98364364.vercel.app/)
 
