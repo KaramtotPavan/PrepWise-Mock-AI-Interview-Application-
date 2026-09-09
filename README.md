@@ -1,21 +1,38 @@
-# PrepWise - AI Mock Interview Platform
+# PrepWise - AI Mock Interview Platform 🎙️
 
-PrepWise is an AI-powered mock interview platform designed to help users prepare for technical interviews. It provides real-time voice-assisted interview sessions and generates tailored interview questions using Google Gemini. The platform leverages Firebase for authentication and storage, and it is built using Next.js with ShadCN components for a modern and responsive UI.
+PrepWise is an AI-powered mock interview platform designed to simulate realistic technical and behavioral interviews. It delivers dynamic voice-assisted conversations, generates role-specific interview questions using Google Gemini, and handles authentication and session state with Firebase.
 
-## 🚀 Features
-- **AI-Powered Interview Questions**: Uses Google Gemini to generate intelligent and relevant interview questions.
-- **Voice Assistance**: Integrated with Vapi.ai for real-time voice responses and interaction.
-- **Secure Authentication**: Firebase Authentication for user login and access control.
-- **Cloud Storage**: Firebase Storage for storing user-related data.
-- **Modern UI**: Built with Next.js and ShadCN components for a sleek and responsive design.
-- **Deployed on Vercel**: Ensuring high availability and performance.
+---
+
+## 🚀 Key Features
+- **Adaptive AI Interviewing**: Uses Google Gemini to generate dynamic, role-tailored technical and behavioral interview questions.
+- **Real-Time Voice Assistant**: Powered by Vapi.ai for conversational voice interaction and low-latency speech feedback.
+- **Secure Authentication**: Firebase Auth for session management, login, and user profile isolation.
+- **Cloud Storage**: Firebase Storage to persist interview records and user assessment logs.
+- **Modern UI/UX**: Built with Next.js (App Router), Tailwind CSS, and ShadCN UI for a responsive interface.
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend**: Next.js, ShadCN components
-- **AI Integration**: Google Gemini
-- **Voice Assistance**: Vapi.ai
-- **Authentication & Storage**: Firebase Authentication, Firebase Storage
+- **Frontend**: Next.js, React, Tailwind CSS, ShadCN UI
+- **AI Engine**: Google Gemini API
+- **Voice Pipeline**: Vapi.ai SDK
+- **Backend & Auth**: Firebase Authentication, Firestore / Storage
 - **Deployment**: Vercel
+
+---
+
+## 🏗️ Project Structure
+```text
+PrepWise-Mock-AI-Interview-Application-/
+├── app/                  # Next.js App Router pages and route handlers
+├── components/           # UI components (ShadCN, interview cards, audio controls)
+├── lib/                  # Firebase initialization, Gemini API helpers
+├── hooks/                # Custom hooks for Vapi voice connection
+├── public/               # Static assets and icons
+├── .env.example          # Example environment configuration
+└── package.json
+
 
 ## 📦 Installation
 To set up the project locally, follow these steps:
